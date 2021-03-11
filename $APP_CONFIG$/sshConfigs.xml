@@ -1,0 +1,21 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="icmwalds010.madrid.org" id="a100de8c-dcf6-4615-a129-9bf8a62db79e" port="22" customName="jano_ftp" nameFormat="CUSTOM" username="apache_jano">
+        <option name="customName" value="jano_ftp" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="icmwalva010.madrid.org" id="44a0ece6-209d-4339-8f10-aeb5c3c4fbc9" port="22" customName="Jano_Validacion" nameFormat="CUSTOM" username="apache_jano">
+        <option name="customName" value="Jano_Validacion" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="pre.empiezaconsultora.es" id="b5c6f317-7417-42bd-aba3-ac2991c9b083" port="22" customName="pre.empiezaconsultora.es" nameFormat="CUSTOM">
+        <option name="customName" value="pre.empiezaconsultora.es" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="www.empiezaconsultora.es" id="509127c5-6f5e-4d1f-a65e-0a0fcc62e45a" port="22" customName="www.empiezaconsultora.es" nameFormat="CUSTOM">
+        <option name="customName" value="www.empiezaconsultora.es" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="icmwalds010.madrid.org" id="ea2cdc2d-ec86-4ba9-953e-bd25e1ca4bd8" port="22" customName="Jano Symfony" nameFormat="CUSTOM">
+        <option name="customName" value="Jano Symfony" />
+      </sshConfig>
+    </configs>
+  </component>
+</application>

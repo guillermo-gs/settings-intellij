@@ -1,0 +1,7 @@
+<templateSet group="Phormium">
+  <template name="pho-filter" value="$END$$tabla = Tabla::objects()&#10;    -&gt;filter('column', '=',  $campo)&#10;    -&gt;fetch();&#10;&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

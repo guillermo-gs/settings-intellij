@@ -1,0 +1,55 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="23e3ae66-de27-486d-bf4b-decb9b795282" name="jano_ftp" url="http://icmwalds010.madrid.org">
+        <fileTransfer host="icmwalds010.madrid.org" port="22" rootFolder="/usr/aplic_ICM/prod/web/jano" accessType="SFTP" username="apache_jano" password="dfc0dfcbdfc4dfc5dfc0dfcbdfc4dfc5">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="a90fae09-27d8-4f13-acb2-4875697b0f74" name="Jano_Validacion" url="http://icmwalva010.madrid.org">
+        <fileTransfer host="icmwalva010.madrid.org" port="22" accessType="SFTP" username="apache_jano">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="86f5860d-9e6f-4665-9a81-e1fe92609661" name="icmwalds010.madrid.org" url="http://localhost">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="f542ae6f-affc-4785-96f6-fe4a014f5b58" name="pre.empiezaconsultora.es" url="http://pre.empiezaconsultora.es">
+        <fileTransfer host="pre.empiezaconsultora.es" port="22" rootFolder="/var/www/vhosts/empiezaconsultora.es/pre.empiezaconsultora.es" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="8514c5df-29ce-4453-b41e-0aa748bc5d48" name="www.empiezaconsultora.es" url="http://www.empiezaconsultora.es">
+        <fileTransfer host="www.empiezaconsultora.es" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="d110daaa-b52d-45c5-8b08-8a67a4176e90" name="local" url="http://localhost">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="49582891-110f-42cd-81b1-3929a7e785c5" name="localhost:8086" url="http://localhost:8086/app_dev.php">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="9e5921ba-4e65-4a45-a522-8073c7b931a2" name="jano_frontGG" url="http://localhost">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="104f7d9d-71a7-41c6-abbb-de6bf0c0bfe9" name="Jano Symfony" url="http://localhost">
+        <fileTransfer host="icmwalds010.madrid.org" port="22" rootFolder="/usr/aplic_ICM/prod/web/jano" accessType="SFTP">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

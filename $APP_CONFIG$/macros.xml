@@ -1,0 +1,11 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="&lt;noname&gt;">
+      <action id="EditorPaste" />
+      <action id="EditorLineEnd" />
+      <typing text-keycode="59:1">;</typing>
+      <action id="EditorDown" />
+      <action id="EditorLineStart" />
+    </macro>
+  </component>
+</application>
