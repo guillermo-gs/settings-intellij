@@ -16,6 +16,9 @@
       <sshConfig authType="PASSWORD" host="icmwalds010.madrid.org" id="ea2cdc2d-ec86-4ba9-953e-bd25e1ca4bd8" port="22" customName="Jano Symfony" nameFormat="CUSTOM">
         <option name="customName" value="Jano Symfony" />
       </sshConfig>
+      <sshConfig authType="PASSWORD" host="icmwalva010.madrid.org" id="df78b4ad-bc3c-414f-9c21-bbbaf70a7e68" port="22" customName="Jano_Validacion" nameFormat="CUSTOM">
+        <option name="customName" value="Jano_Validacion" />
+      </sshConfig>
     </configs>
   </component>
 </application>
